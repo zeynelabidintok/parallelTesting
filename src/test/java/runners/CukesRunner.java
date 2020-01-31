@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
         features = "src/main/resources/features",
         tags="@view_orders",
         dryRun = false,
-        plugin = "json:target/cucumber2.json"
+        plugin = "json:target/cucumber1.json"
 )
 public class CukesRunner {
 
