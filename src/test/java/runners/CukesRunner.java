@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
         glue = "step_definitions",
         features = "src/main/resources/features",
         tags="@view_orders",
-        dryRun = false
+        dryRun = false,
+        plugin = "json:target/cucumber2.json"
 )
 public class CukesRunner {
 
