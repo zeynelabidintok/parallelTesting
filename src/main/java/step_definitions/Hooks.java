@@ -12,8 +12,6 @@ public class Hooks {
     @After
     public void tearDown(){
         System.out.println("closing driver");
-        Driver.getDriver().quit();
-
-
+        Driver.closeDriver();
     }
 }

@@ -1,3 +1,5 @@
+@login
+
 Feature: Login
 
   Scenario: Login as Tester
